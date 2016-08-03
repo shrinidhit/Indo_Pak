@@ -82,9 +82,13 @@ table .purple_line {
     margin-right: auto;
   }
 
-.conference-section .speakers-section .schedule-section .aboutus-section .register-section .content-section {
+.conference-section1,.conference-section2,.speakers-section,.schedule-section,.aboutus-section,.register-section{
+  padding: 50px 25px 50px 25px;
+  margin: 0px 0px 0px 0px;
+}
+
+.conference-section1,.register-section,.schedule-section{
   padding-top: 100px;
-  margin: 0px 0px;
 }
 
 /*-------------------------------------------HELPER FUNCTIONS------------------------------------------------------------------------*/
@@ -203,7 +207,7 @@ table .purple_line {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 100px;
   text-align: center;
   color: white;
   background: url(../img/India_Pakistan_Flag_dark.jpg) no-repeat bottom center scroll;
@@ -295,7 +299,7 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li {
     display: block;
     margin-bottom: 20px;
-    padding: 0;
+    padding: 0px 0px 0px 0px;
   }
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
@@ -303,30 +307,16 @@ ul.banner-social-buttons {
 }
 
 /*-------------------------------------------SECTIONS------------------------------------------------------------------------*/
-@media (min-width: 768px) {
-  .conference-section {
-    background: url(../img/meeting_light.jpg) no-repeat bottom center scroll;
+.conference-section2{
+   background: url(../img/meeting_light.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding-top: 125px;
-    padding-bottom: 75px;
-  }
-  .schedule-section {
-    width: 100%;
-  /*  color: black;*/
-    padding-top: 125px;
-  /*  background-color: white*/
-  }
+}
 
-  .speakers-section {
-    padding-top: 125px;
-    padding-bottom: 125px;
-  }
-
-  .aboutus-section {
+.aboutus-section{
     padding-top: 125px;
     padding-bottom: 125px;
     background: url(../img/undergraduates.jpg) no-repeat bottom center scroll;
@@ -335,10 +325,34 @@ ul.banner-social-buttons {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-  }
 }
-.register-section {
+
+@media (min-width: 768px) {
+  .conference-section1 {
+    padding-top: 250px;
+    padding-bottom: 0px;
+
+  }
+  .conference-section2 {
+    padding-top: 125px;
+    padding-bottom: 75px;
+  }
+  .schedule-section {
+    width: 100%;
+    padding-top: 125px;
+  }
+
+  .speakers-section {
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+
+  .aboutus-section {
+  }
+
+  .register-section {
   padding-bottom: 125px;
+  }
 }
 
 @media (min-width: 767px) {
@@ -346,13 +360,14 @@ ul.banner-social-buttons {
     padding-top: 250px;
   }
   .schedule-section-section {
-    padding: 50px 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
 /*-------------------------------------------FOOTER------------------------------------------------------------------------*/
 footer {
-  padding: 50px 0;
+  padding: 50px;
 }
 footer p {
   margin: 0;
