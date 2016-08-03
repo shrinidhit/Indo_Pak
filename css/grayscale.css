@@ -77,10 +77,21 @@ table .purple_line {
 
   img {
     padding-bottom: 35px;
-    width:200px;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .pf-pic {
+    width: 250px;
+    margin-top: 50px;
+  }
+
+@media (min-width: 767px) {
+  .pf-pic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
 
 .conference-section1,.conference-section2,.speakers-section,.schedule-section,.aboutus-section,.register-section{
   padding: 50px 25px 50px 25px;
