@@ -75,6 +75,14 @@ table .purple_line {
   border-width: 5px;
 }
 
+.day_title {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
   img {
     padding-bottom: 35px;
     margin-left: auto;
