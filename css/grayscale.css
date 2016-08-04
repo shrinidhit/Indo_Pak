@@ -44,7 +44,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #FFF11C;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -52,7 +52,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #FFF11C;
 }
 
 table {
@@ -81,6 +81,10 @@ table .purple_line {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.no_border {
+  border: none;
 }
 
   img {
