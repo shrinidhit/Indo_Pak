@@ -1,0 +1,420 @@
+/*!
+ * Start Bootstrap - Grayscale v1.1.1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+/*-------------------------------------------OVERARCHING STYLING------------------------------------------------------------------------*/
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #A72DFF;
+}
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+a {
+  color: #FFF11C;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #FFF11C;
+}
+
+table {
+/*    border: 2px solid white;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border-top: solid white;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+table .purple_line {
+  border-top: solid #A72DFF;
+  border-width: 5px;
+}
+
+.day_title {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.no_border {
+  border: none;
+}
+
+  img {
+    padding-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pf-pic {
+    width: 250px;
+    margin-top: 50px;
+  }
+
+@media (min-width: 767px) {
+  .pf-pic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.conference-section1,.conference-section2,.speakers-section,.schedule-section,.aboutus-section,.register-section{
+  padding: 50px 25px 50px 25px;
+  margin: 0px 0px 0px 0px;
+}
+
+.conference-section1,.register-section,.schedule-section{
+  padding-top: 100px;
+}
+
+/*-------------------------------------------HELPER FUNCTIONS------------------------------------------------------------------------*/
+
+/*.container{
+  border-color: red;
+  border-style: dotted; 
+}*/
+
+.no-spacing {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+.purple {
+  color: #A72DFF;
+}
+
+.gray {
+  color: #3C3C3C;
+}
+
+/*-------------------------------------------NAVIGATION------------------------------------------------------------------------*/
+
+.logo {
+  width: 70px;
+}
+
+.light {
+  font-weight: 400;
+}
+
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li.active {
+  outline: none;
+}
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+/*-------------------------------------------INTRO------------------------------------------------------------------------*/
+@media (min-width: 500px) {
+  .title_image {
+    width: 450px;
+    padding-bottom: 100px;
+  }
+}
+
+.title_image {
+  padding: 25px 0px 25px 0px;
+}
+
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px;
+  text-align: center;
+  color: white;
+  background: url(../img/India_Pakistan_Flag_dark.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+}
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 100px 0px 0px 0px;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+
+/*-------------------------------------------BUTTONS------------------------------------------------------------------------*/
+.btn-lg {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  padding: 7px 16px;
+/*  border: 2px solid white;
+  border-radius: 100% !important;*/
+  font-size: 28px;
+  color: #3C3C3C;
+  background: #FFF11C;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.btn-lg:hover,
+.btn-lg:focus {
+  outline: none;
+  color: white;
+  background: #3C3C3C;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn-default {
+  border: 1px solid #42DCA3;
+  color: #42DCA3;
+  background-color: transparent;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn-default:hover
+.btn-lg:hover
+.btn-default:focus {
+  border: 1px solid #42DCA3;
+  outline: none;
+  color: black;
+  background-color: #3C3C3C;
+}
+ul.banner-social-buttons {
+  margin-top: 0;
+}
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 767px) {
+  ul.banner-social-buttons li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0px 0px 0px 0px;
+  }
+  ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/*-------------------------------------------SECTIONS------------------------------------------------------------------------*/
+.conference-section2{
+   background: url(../img/meeting_light.jpg) no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.aboutus-section{
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background: url(../img/undergraduates.jpg) no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .conference-section1 {
+    padding-top: 250px;
+    padding-bottom: 0px;
+
+  }
+  .conference-section2 {
+    padding-top: 125px;
+    padding-bottom: 75px;
+  }
+  .schedule-section {
+    width: 100%;
+    padding-top: 125px;
+  }
+
+  .speakers-section {
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+
+  .aboutus-section {
+  }
+
+  .register-section {
+  padding-bottom: 125px;
+  }
+}
+
+@media (min-width: 767px) {
+  .content-section {
+    padding-top: 250px;
+  }
+  .schedule-section-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+/*-------------------------------------------FOOTER------------------------------------------------------------------------*/
+footer {
+  padding: 50px;
+}
+footer p {
+  margin: 0;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+::selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
