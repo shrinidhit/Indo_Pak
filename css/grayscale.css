@@ -203,22 +203,6 @@ table .blue_line {
   color: #3C3C3C;
 }
 
-.numbers {
-  font-size: 30px;
-  color: #FFD250;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
-@media (min-width: 768px) {
-  .numbers {
-  font-size: 50px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  }
-}
-
-
 
 /*-------------------------------------------NAVIGATION------------------------------------------------------------------------*/
 
@@ -418,6 +402,25 @@ ul.banner-social-buttons {
 
 
 /*-------------------------------------------SECTIONS------------------------------------------------------------------------*/
+.numbers {
+  font-size: 30px;
+  color: #FFD250;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .numbers {
+  font-size: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  }
+}
+.speaker-name {
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+
 .conference-section2{
    background: url(../img/meeting_light.jpg) no-repeat bottom center scroll;
     background-color: black;
