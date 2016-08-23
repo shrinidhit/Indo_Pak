@@ -77,6 +77,12 @@ img {
   margin-right: auto;
 }
 
+.container-wide {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*-------------------------------------------RESPONSIVE STYLING------------------------------------------------------------------------*/
 
 @media(max-width: 1580px) {
@@ -161,7 +167,7 @@ table .blue_line {
   }
 }
 
-.conference-section1,.conference-section2,.speakers-section,.schedule-section,.aboutus-section,.register-section{
+.conference-section1,.conference-section2,.speakers-section,.schedule-section,.aboutus-section,.register-section,.process-section{
   padding: 50px 25px 50px 25px;
   margin: 0px 0px 0px 0px;
 }
@@ -287,7 +293,7 @@ table .blue_line {
 
 @media (min-width: 500px) {
   .title_image {
-    width: 350px;
+    width: 425px;
   }
 }
 
@@ -327,17 +333,19 @@ table .blue_line {
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
+  .btn-lg{
+    font-size: 1.25rem;
+  }
 }
 
 /*-------------------------------------------BUTTONS------------------------------------------------------------------------*/
-.btn-lg,.btn,.btn-sm{
+.btn-lg{
 /*  width: 50px;*/
 /*  height: 50px;*/
 /*  margin-top: 15px;*/
 /*  padding: 7px 16px;*/
 /*  border: 2px solid white;*/
 /*  border-radius: 100% !important;*/
-/*  font-size: 1.6rem;*/
   margin-left: auto;
   margin-right: auto;
   color: black;
@@ -416,31 +424,60 @@ ul.banner-social-buttons {
   margin-bottom: 0px;
   }
 }
-.speaker-name {
-  padding-bottom: 5px;
-  font-weight: 700;
+
+.title {
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
 }
 
+.chevron {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .chevron {
+  width: 100px;
+  }
+}
 .conference-section2{
-   background: url(../img/meeting_light.jpg) no-repeat bottom center scroll;
+  background-color: #173148; 
+/*   background: url(../img/meeting_light.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
-    color: white;
+    -o-background-size: cover;*/
+    color: #F8F8F8;
+}
+
+.process-section{
+  background-color: #173148;
+  color: #F8F8F8;
+}
+
+.process-row{
+  padding-bottom: 25px;
+}
+
+.process-section h3{
+  color: #FDE29C;
 }
 
 .aboutus-section{
     padding-top: 125px;
     padding-bottom: 125px;
-    background: url(../img/undergraduates.jpg) no-repeat bottom center scroll;
+    background-color: #173148; 
+/*    background: url(../img/undergraduates.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
-    color: white;
+    -o-background-size: cover;*/
+    color: #F8F8F8;
 }
 
 @media (min-width: 768px) {
@@ -459,6 +496,11 @@ ul.banner-social-buttons {
   }
 
   .speakers-section {
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+
+  .process-section {
     padding-top: 125px;
     padding-bottom: 125px;
   }
