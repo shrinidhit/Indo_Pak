@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+/*  font-weight: 700;*/
   letter-spacing: 1px;
   color: #173148;
 }
@@ -139,7 +139,7 @@ table .blue_line {
 .day_title {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  font-weight: 700;
+/*  font-weight: 700;*/
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -202,6 +202,23 @@ table .blue_line {
 .gray {
   color: #3C3C3C;
 }
+
+.numbers {
+  font-size: 30px;
+  color: #FFD250;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .numbers {
+  font-size: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  }
+}
+
+
 
 /*-------------------------------------------NAVIGATION------------------------------------------------------------------------*/
 
@@ -286,7 +303,7 @@ table .blue_line {
 
 @media (min-width: 500px) {
   .title_image {
-    width: 450px;
+    width: 350px;
   }
 }
 
@@ -339,9 +356,11 @@ table .blue_line {
 /*  font-size: 1.6rem;*/
   margin-left: auto;
   margin-right: auto;
-  color: #3C3C3C;
+  color: black;
   background: #FFF11C;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  font-weight: 700;*/
+  text-transform: uppercase;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
@@ -357,7 +376,7 @@ table .blue_line {
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+/*  font-weight: 700;*/
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -366,7 +385,7 @@ table .blue_line {
 }
 .btn-default {
   border: 1px solid #42DCA3;
-  color: #3C3C3C;
+  color: black;
   background: #FFF11C;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
