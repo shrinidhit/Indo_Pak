@@ -500,13 +500,11 @@ ul.banner-social-buttons {
     padding-top: 125px;
     padding-bottom: 125px;
     background-color: #173148; 
-/*    background: url(../img/undergraduates.jpg) no-repeat bottom center scroll;
-    background-color: black;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;*/
     color: #F8F8F8;
+}
+
+.aboutus-section h3 {
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -532,7 +530,7 @@ ul.banner-social-buttons {
 
   .process-section {
     padding-top: 125px;
-    padding-bottom: 125px;
+    padding-bottom: 0px;
   }
 
   .aboutus-section {
