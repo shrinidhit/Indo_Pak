@@ -180,11 +180,11 @@ table .blue_line {
 
 /*-------------------------------------------HELPER FUNCTIONS------------------------------------------------------------------------*/
 
-.container{
+/*.container{
   border-color: red;
   border-style: dotted; 
 }
-
+*/
 .centered {
   margin-left: auto;
   margin-right: auto;
@@ -483,7 +483,7 @@ ul.banner-social-buttons {
   
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1000px) {
   .sponsor img {
       width: 100%;
       margin-top: auto;
