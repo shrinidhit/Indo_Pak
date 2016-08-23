@@ -158,6 +158,8 @@ table .blue_line {
   .pf-pic {
     width: 250px;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 @media (min-width: 767px) {
@@ -167,12 +169,12 @@ table .blue_line {
   }
 }
 
-.conference-section1,.conference-section2,.speakers-section,.schedule-section,.aboutus-section,.register-section,.process-section{
+.conference-section1,.conference-section2,.speakers-section,.schedule-section,.aboutus-section,.register-section,.process-section,.sponsor-section {
   padding: 50px 25px 50px 25px;
   margin: 0px 0px 0px 0px;
 }
 
-.conference-section1,.register-section,.schedule-section{
+.conference-section1{
   padding-top: 100px;
 }
 
@@ -438,6 +440,10 @@ ul.banner-social-buttons {
   margin-right: auto;
 }
 
+.sponsor-row {
+  padding-top: 25px;
+}
+
 @media (min-width: 768px) {
   .chevron {
   width: 100px;
@@ -454,6 +460,15 @@ ul.banner-social-buttons {
     color: #F8F8F8;
 }
 
+.register-section{
+  background-color: #173148;
+  color: #F8F8F8;
+}
+
+.register-section h2{
+  color: #F8F8F8;
+}
+
 .process-section{
   background-color: #173148;
   color: #F8F8F8;
@@ -461,6 +476,20 @@ ul.banner-social-buttons {
 
 .process-row{
   padding-bottom: 25px;
+}
+
+.sponsor img{
+  width: 200px;
+  
+}
+
+@media (min-width: 768px) {
+  .sponsor img {
+      width: 100%;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 0px 25px 0px 25px;
+  }
 }
 
 .process-section h3{
@@ -483,7 +512,7 @@ ul.banner-social-buttons {
 @media (min-width: 768px) {
   .conference-section1 {
     padding-top: 250px;
-    padding-bottom: 0px;
+    padding-bottom: 250px;
 
   }
   .conference-section2 {
@@ -493,6 +522,7 @@ ul.banner-social-buttons {
   .schedule-section {
     width: 100%;
     padding-top: 125px;
+    padding-bottom: 125px;
   }
 
   .speakers-section {
@@ -509,17 +539,13 @@ ul.banner-social-buttons {
   }
 
   .register-section {
-  padding-bottom: 125px;
-  }
-}
+    padding-top: 125px;
+    padding-bottom: 125px;
 
-@media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px;
   }
-  .schedule-section-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  .sponsor-section {
+    padding-top: 125px;
+    padding-bottom: 125px;
   }
 }
 
