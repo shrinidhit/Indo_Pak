@@ -483,7 +483,7 @@ ul.banner-social-buttons {
   
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .sponsor img {
       width: 100%;
       margin-top: auto;
