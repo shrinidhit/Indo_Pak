@@ -73,6 +73,7 @@ th, td {
 
 img {
   padding-bottom: 35px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -143,7 +144,7 @@ img {
   }
   th, td {
     font-size: .75rem;
-}
+  }
 
 }
 
@@ -169,29 +170,10 @@ table .blue_line {
 
 /*Image styling*/
   .pf-pic {
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 350px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
-
-  .speakers-section .pf-pic {
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 0px 0px;
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-
-@media (min-width: 767px) {
-  .pf-pic {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    width: 250px;
-  }
-}
 
 .conference-section1,.conference-section2,.speakers-section,.schedule-section,.register-section,.process-section,.sponsor-section,.aboutus-section{
   padding: 50px 20px 50px 20px;
@@ -458,7 +440,7 @@ ul.banner-social-buttons {
 }
 
 .title {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -541,10 +523,11 @@ ul.banner-social-buttons {
   color: white;
 }
 
-/*.aboutus-section img {
-  width: 125px;
+.aboutus-section img {
+  width: 250px;
+  padding-top: 25px;
 }
-*/
+
 @media (min-width: 768px) {
   .conference-section1 {
     padding-top: 250px;
