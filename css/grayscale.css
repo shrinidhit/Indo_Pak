@@ -173,13 +173,14 @@ table .blue_line {
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 5%;
-    margin-bottom: 0  %;
+    margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .speakers-section .pf-pic {
-    margin-bottom: 0px;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
     padding-left: 20%;
     padding-right: 20%;
   }
