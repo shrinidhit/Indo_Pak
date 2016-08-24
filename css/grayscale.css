@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Grayscale v1.1.1 (http://startbootstrap.com/tremplate-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Website for IndoPak Conference at NYU on Oct 1st
+ * Designed and produced by Shrinidhi Thirumalai
+ * Link @ shrinidhit.github.io/Indo_Pak
  */
 
 
@@ -78,19 +78,6 @@ img {
   margin-right: auto;
 }
 
-.container-wide {
-  width: 100%;
-}
-
-@media(min-width: 768px) {
-  .container-wide {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-}
-
 /*-------------------------------------------RESPONSIVE STYLING------------------------------------------------------------------------*/
 
 @media(max-width: 1580px) {
@@ -145,7 +132,6 @@ img {
   th, td {
     font-size: .8rem;
   }
-
 }
 
 /*---------------------------------------------------SPECIFIC FUNCTIONS----------------------------------------------------------------*/
@@ -166,6 +152,20 @@ table .blue_line {
 
 .no_border {
   border: none;
+}
+
+/*container styling*/
+.container-wide {
+  width: 100%;
+}
+
+@media(min-width: 768px) {
+  .container-wide {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
 }
 
 /*Image styling*/
@@ -294,7 +294,7 @@ table .blue_line {
   }
 }
 
-/*-------------------------------------------INTRO------------------------------------------------------------------------*/
+/*-------------------------------------------BANNER------------------------------------------------------------------------*/
 .title_image {
   padding: 25px 0px 25px 0px;
 }
@@ -348,12 +348,6 @@ table .blue_line {
 
 /*-------------------------------------------BUTTONS------------------------------------------------------------------------*/
 .btn-lg{
-/*  width: 50px;*/
-/*  height: 50px;*/
-/*  margin-top: 15px;*/
-/*  padding: 7px 16px;*/
-/*  border: 2px solid white;*/
-/*  border-radius: 100% !important;*/
   margin-left: auto;
   margin-right: auto;
   color: black;
@@ -372,7 +366,6 @@ table .blue_line {
   color: white;
   background: #3C3C3C;
 }
-
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -418,19 +411,54 @@ ul.banner-social-buttons {
 
 
 /*-------------------------------------------SECTIONS------------------------------------------------------------------------*/
+
+/*-----------defaults (shown when screen is small)--------------------*/
+
+/*conference*/
+.title {
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+.chevron {
+  width: 25px;
+}
+@media (min-width: 768px) {
+  .chevron {
+  width: 25px;
+  margin-left: 100px;
+  }
+}
+.conference-section2{
+  background-color: #173148; 
+    color: #F8F8F8;
+}
+.process-section{
+  background-color: #173148;
+  color: #F8F8F8;
+}
+.process-row{
+  padding-bottom: 25px;
+}
+.process-section h3{
+  color: #FFD250;
+}
+
+/*speakers*/
+
+/*schedule */
+.bullet {
+  width: 25%;
+  height: 25%;
+  padding-top: 50%;
+}
 .numbers {
   font-size: 30px;
   color: #FFD250;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-
-.bullet {
-  width: 25%;
-  height: 25%;
-  padding-top: 50%;
-}
-
 @media (min-width: 768px) {
   .numbers {
   font-size: 50px;
@@ -439,63 +467,39 @@ ul.banner-social-buttons {
   }
 }
 
-.title {
-  padding-bottom: 5px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 0px;
+/*about us */
+.aboutus-section {
+  background-color: #173148; 
+  color: #F8F8F8;
 }
-
-.chevron {
-  width: 25px;
+.aboutus-section h3 {
+  color: white;
 }
-
-.sponsor-row {
+.aboutus-section img {
+  width: 250px;
   padding-top: 25px;
 }
 
-@media (min-width: 768px) {
-  .chevron {
-  width: 25px;
-  margin-left: 100px;
-
-  }
+/*sponsor */
+.sponsor-row {
+  padding-top: 25px;
 }
-.conference-section2{
-  background-color: #173148; 
-/*   background: url(../img/meeting_light.jpg) no-repeat bottom center scroll;
-    background-color: black;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;*/
-    color: #F8F8F8;
-}
-
-.register-section{
-  background-color: #173148;
-  color: #F8F8F8;
-}
-
-.register-section h2{
-  color: #F8F8F8;
-}
-
-.process-section{
-  background-color: #173148;
-  color: #F8F8F8;
-}
-
-.process-row{
-  padding-bottom: 25px;
-}
-
 .sponsor img{
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
+/*register */
+.register-section{
+  background-color: #173148;
+  color: #F8F8F8;
+}
+.register-section h2{
+  color: #F8F8F8;
+}
+
+/*-----------responsive adjustments (shown when screen is md or larger)--------------------*/
 @media (min-width: 992px) {
   .sponsor img {
       width: 100%;
@@ -503,29 +507,10 @@ ul.banner-social-buttons {
       margin-bottom: auto;
       padding: 0px 15px 0px 15px;
   }
-
   .speakers-section {
     padding-top: 125px;
     padding-bottom: 125px;
   }
-}
-
-.process-section h3{
-  color: #FFD250;
-}
-
-.aboutus-section {
-  background-color: #173148; 
-  color: #F8F8F8;
-}
-
-.aboutus-section h3 {
-  color: white;
-}
-
-.aboutus-section img {
-  width: 250px;
-  padding-top: 25px;
 }
 
 @media (min-width: 768px) {

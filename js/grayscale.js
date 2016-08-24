@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Website for IndoPak Conference at NYU on Oct 1st
+ * Designed and produced by Shrinidhi Thirumalai
+ * Link @ shrinidhit.github.io/Indo_Pak
  */
 
 // jQuery to collapse the navbar on scroll
