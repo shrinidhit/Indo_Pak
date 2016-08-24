@@ -78,9 +78,16 @@ img {
 }
 
 .container-wide {
+  width: 100%;
+}
+
+@media(min-width: 768px) {
+  .container-wide {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
 }
 
 /*-------------------------------------------RESPONSIVE STYLING------------------------------------------------------------------------*/
@@ -94,6 +101,7 @@ img {
     line-height: 1.6;
   }
 }
+
 @media(max-width: 768px) {
   html {
     font-size: 18px;
@@ -107,6 +115,7 @@ img {
     line-height: 1.6;
   }
 }
+
 @media(max-width: 600px) {
   html {
     font-size: 16px;
@@ -157,19 +166,19 @@ table .blue_line {
 /*Image styling*/
   .pf-pic {
     width: 250px;
-    margin-top: 50px;
+    margin-top: 10px 0px 10px 0px;
+    padding: 0px 0px 10px 0px;
     margin-left: auto;
     margin-right: auto;
   }
 
 @media (min-width: 767px) {
   .pf-pic {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 50px;
   }
 }
 
-.conference-section1,.conference-section2,.speakers-section,.schedule-section,.aboutus-section,.register-section,.process-section,.sponsor-section {
+.conference-section1,.conference-section2,.speakers-section,.schedule-section,.register-section,.process-section,.sponsor-section,.aboutus-section{
   padding: 50px 25px 50px 25px;
   margin: 0px 0px 0px 0px;
 }
@@ -489,12 +498,17 @@ ul.banner-social-buttons {
   
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
   .sponsor img {
       width: 100%;
       margin-top: auto;
       margin-bottom: auto;
       padding: 0px 25px 0px 25px;
+  }
+
+  .speakers-section {
+    padding-top: 125px;
+    padding-bottom: 125px;
   }
 }
 
@@ -502,11 +516,9 @@ ul.banner-social-buttons {
   color: #FFD250;
 }
 
-.aboutus-section{
-    padding-top: 125px;
-    padding-bottom: 125px;
-    background-color: #173148; 
-    color: #F8F8F8;
+.aboutus-section {
+  background-color: #173148; 
+  color: #F8F8F8;
 }
 
 .aboutus-section h3 {
@@ -529,17 +541,14 @@ ul.banner-social-buttons {
     padding-bottom: 125px;
   }
 
-  .speakers-section {
-    padding-top: 125px;
-    padding-bottom: 125px;
-  }
-
   .process-section {
     padding-top: 125px;
     padding-bottom: 0px;
   }
 
-  .aboutus-section {
+  .aboutus-section{
+    padding-top: 125px;
+    padding-bottom: 125px;
   }
 
   .register-section {
