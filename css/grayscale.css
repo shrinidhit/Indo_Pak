@@ -141,6 +141,10 @@ img {
     font-size: 1rem;
     line-height: 1.6;
   }
+  th, td {
+    font-size: .75rem;
+}
+
 }
 
 /*---------------------------------------------------SPECIFIC FUNCTIONS----------------------------------------------------------------*/
@@ -180,7 +184,7 @@ table .blue_line {
 }
 
 .conference-section1,.conference-section2,.speakers-section,.schedule-section,.register-section,.process-section,.sponsor-section,.aboutus-section{
-  padding: 50px 15px 50px 15px;
+  padding: 50px 20px 50px 20px;
   margin: 0px 0px 0px 0px;
 }
 
@@ -525,6 +529,10 @@ ul.banner-social-buttons {
 
 .aboutus-section h3 {
   color: white;
+}
+
+.aboutus-section img {
+  width: 125px;
 }
 
 @media (min-width: 768px) {
