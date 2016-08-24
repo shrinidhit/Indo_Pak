@@ -165,7 +165,7 @@ table .blue_line {
 
 /*Image styling*/
   .pf-pic {
-    width: 250px;
+    width: 150px;
     margin-top: 10px 0px 10px 0px;
     padding: 0px 0px 10px 0px;
     margin-left: auto;
@@ -175,6 +175,7 @@ table .blue_line {
 @media (min-width: 767px) {
   .pf-pic {
     margin-top: 50px;
+    width: 250px;
   }
 }
 
