@@ -180,7 +180,7 @@ table .blue_line {
 }
 
 .conference-section1,.conference-section2,.speakers-section,.schedule-section,.register-section,.process-section,.sponsor-section,.aboutus-section{
-  padding: 50px 25px 50px 25px;
+  padding: 50px 15px 50px 15px;
   margin: 0px 0px 0px 0px;
 }
 
@@ -495,8 +495,9 @@ ul.banner-social-buttons {
 }
 
 .sponsor img{
-  width: 200px;
-  
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 992px) {
@@ -504,7 +505,7 @@ ul.banner-social-buttons {
       width: 100%;
       margin-top: auto;
       margin-bottom: auto;
-      padding: 0px 25px 0px 25px;
+      padding: 0px 15px 0px 15px;
   }
 
   .speakers-section {
