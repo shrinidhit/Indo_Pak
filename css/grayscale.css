@@ -169,16 +169,25 @@ table .blue_line {
 
 /*Image styling*/
   .pf-pic {
-    width: 150px;
-    margin-top: 10px 0px 10px 0px;
-    padding: 0px 0px 10px 0px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 0  %;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .speakers-section .pf-pic {
+    margin-bottom: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
 @media (min-width: 767px) {
   .pf-pic {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     width: 250px;
   }
 }
@@ -531,10 +540,10 @@ ul.banner-social-buttons {
   color: white;
 }
 
-.aboutus-section img {
+/*.aboutus-section img {
   width: 125px;
 }
-
+*/
 @media (min-width: 768px) {
   .conference-section1 {
     padding-top: 250px;
